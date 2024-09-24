@@ -1,0 +1,277 @@
+
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold";
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+
+.big {
+  font-family: "Montserrat-Black";
+  font-size: 2.5rem;
+  line-height: 1.5;
+  color: red;
+  font-weight: 600;
+}
+
+.hadding{
+  font-family: "Montserrat-Black";
+  font-size: 2.5rem;
+  line-height: 1.5;
+  font-weight: 600;
+}
+p{
+  font-weight: 300;
+}
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+/* Buttons */
+
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+
+#title {
+  background-color: #ECF2FF;
+  color: black;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Title Image */
+
+.title-image{
+  width: 60%;
+  right: 30%;
+}
+
+/*Features*/
+
+.ft{
+  background-color:  aliceblue;
+  color: #87A922;
+  border-radius: 45px;
+}
+.tx{
+  color: black;
+}
+
+.fac{
+  background-color: rgb(187, 187, 242);
+  color: black;
+  margin-top: 22px;
+  margin-bottom: 22px;
+  text-align: left;
+  border-radius: 10px;
+  padding: 20px 30px 28px 30px;
+}
+
+.il{
+  background-color: rgb(210, 230, 210);
+  color: black;
+  margin-top: 22px;
+  margin-bottom: 22px;
+  text-align: left;
+  border-radius: 10px;
+  padding: 20px 30px 28px 30px;
+}
+
+.ty{
+  background-color: rgb(222, 218, 209);
+  color: black;
+  margin-top: 22px;
+  margin-bottom: 22px;
+  text-align: left;
+  border-radius: 10px;
+  padding: 20px 30px 28px 30px;
+}
+
+.es{
+  background-color: rgb(197, 185, 209);
+  color: black;
+  margin-top: 22px;
+  margin-bottom: 22px;
+  text-align: left;
+  border-radius: 10px;
+  padding: 20px 30px 28px 30px;
+}
+
+.inv{
+  font-size: 3.5rem;
+  color: blue;
+}
+.er{
+  font-size: 3.5rem;
+  color: green;
+}
+.ted{
+  font-size: 3.5rem;
+  color: orange;
+}
+.el{
+  font-size: 3.5rem;
+  color: blueviolet;
+}
+
+.bt{
+  background-color: azure;
+  margin: 13px;
+  margin-bottom: 30px;
+  color: blue;
+  padding: 15px;
+  border-radius: 22px;
+
+}
+
+
+/* Features Section */
+h2{font-weight: 600;
+  color: black;
+
+}
+.text{
+  color: rgba(255, 0, 0, 0.76);
+}
+#Features{
+  background: url(../images/background.jpg);
+  border-radius: 10px;
+}
+
+/*feature end*/
+
+/* chat */
+#chat{
+
+}
+.chat-image{
+  padding-top: 20px;
+}
+.chat-tex{
+  font-weight: 600;
+}
+.skills-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left; 
+}
+.design{
+  float: right;
+  margin-left: 30px;
+}
+.computer{
+  float: left;
+  margin-right: 30px;
+}
+
+.advertise{
+  float: right;
+  margin-right: 30px;
+}
+.sk{
+  color: black;
+  font-weight: 600;
+}
+
+.b{
+
+}
+/* chat */
+
+/*online course*/
+#online-course{
+
+}
+.hedline{
+  background-color: #ff4c68;
+  font-size: 22px;
+  color: #fff;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+
+.course{
+  background-color: #DCF2F1;
+  margin: 10px;
+  border-radius: 10px;
+  font-weight: 600;
+}
+.on{
+  color: black;
+}
+
+/* Footer Section */
+.social{
+  margin-top: 1.5rem;
+}
+
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
